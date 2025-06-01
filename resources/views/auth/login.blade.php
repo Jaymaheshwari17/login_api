@@ -82,7 +82,7 @@
                     success: function(data) {
                         if (data.status) {
                             localStorage.setItem("auth_token", data.token);
-                            showToast("Login successful!", "success");
+                            showToast("Login  added successful!", "success");
                         } else {
                             showToast(data.message, "danger");
                         }
